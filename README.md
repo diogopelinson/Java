@@ -1,4 +1,5 @@
-☕ Estudo de Java — Do Básico ao Avançado
+### ☕ Estudo de Java — Do Básico ao Avançado
+---
 
 Este repositório foi criado como parte da minha jornada de estudos durante o período de férias. Meu objetivo é consolidar o conhecimento em Java, desde os fundamentos até tópicos mais avançados, incluindo:
 
