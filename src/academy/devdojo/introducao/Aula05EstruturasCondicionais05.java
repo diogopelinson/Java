@@ -39,7 +39,7 @@ public class Aula05EstruturasCondicionais05 {
                 break;
             case 'F':
                 System.out.println("Feminino");
-                break; 
+                break;
             default:
                 System.out.println("Opcao invalida");
         }
