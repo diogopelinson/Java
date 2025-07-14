@@ -15,7 +15,7 @@ public class CarroTest01 {
         carro02.modelo = "Laramie Night Edition 3500";
         carro02.ano = 2024;
 
-        carro01 = carro02;
+        carro02 = carro01;
 
         System.out.println("Nome: " + carro01.nome + " | Modelo: " + carro01.modelo + " | Ano: " + carro01.ano);
         System.out.println("Nome: " + carro02.nome + " | Modelo: " + carro02.modelo + " | Ano: " + carro02.ano);
