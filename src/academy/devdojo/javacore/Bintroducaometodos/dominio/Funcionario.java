@@ -1,9 +1,10 @@
 package academy.devdojo.javacore.Bintroducaometodos.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public double[] salario;
+    private String nome;
+    private int idade;
+    private double[] salario;
+    private double soma;
 
 
     public void imprimeFuncionario() {
@@ -22,7 +23,6 @@ public class Funcionario {
         if (salario == null) {
             return;
         }
-        double soma = 0;
         for (int i = 0; i < salario.length; i++) {
             soma += salario[i];
         }
@@ -32,4 +32,31 @@ public class Funcionario {
 
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setSalario(double[] salario) {
+        this.salario = salario;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public double[] getSalario() {
+        return salario;
+    }
+
+    public double getSoma() {
+        return soma;
+    }
 }
